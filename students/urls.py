@@ -23,4 +23,5 @@ urlpatterns = [
 	path('listall/', views.listall),
     path('', views.index),
     path('index/', views.index),
+	path('index2/', views.index),
 ]
